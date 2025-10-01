@@ -5,6 +5,7 @@ import MyComponent from './components/MyComponent'
 import Events from './components/Events'
 import Challenge from './components/Challenge'
 import FinalChallenge from './components/FinalChallenge'
+import Calculator from './components/Calculator'
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <Challenge/>
       <FinalChallenge x={5} y={7} />   
       <FinalChallenge x={10} y={20} /> 
-      <FinalChallenge x={3} y={9} />   
+      <FinalChallenge x={3} y={9} /> 
+      <Calculator/>  
     </div>
   )
 }
